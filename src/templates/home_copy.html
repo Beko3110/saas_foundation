@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block head_title %}SaaS{% endblock head_title %}</title>
+</head>
+<body>
+    <h1>{{ page_title }}</h1>
+    <h1>Software as a Service (SaaS)</h1>
+
+    <p>Software as a Service (SaaS) is a software licensing and delivery model in which software is licensed on a subscription basis and is centrally hosted. It is often accessed via the internet, and these applications are managed by the service provider.</p>
+
+    <h2>Benefits of SaaS</h2>
+    <ul>
+        <li>No upfront cost for software</li>
+        <li>Automatic updates</li>
+        <li>Scalability</li>
+        <li>Accessibility</li>
+
+    {% block content %}
+
+    {% endblock content %}
+
+</body>
+</html>
